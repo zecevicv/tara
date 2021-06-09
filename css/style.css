@@ -287,6 +287,53 @@ button {
   width: 57%;
 }
 
+/* Mobile Img */
+.new-products .icv__control {
+  justify-content: flex-start;
+}
+
+.new-products .icv__control::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15.6vw;
+  height: 15.6vw;
+  border-radius: 50%;
+  background-color: #0f1b51;
+  transform: translate(-50%, -50%);
+}
+
+.new-products .icv__control-line {
+  background: #0f1b51!important;
+}
+
+.new-products .icv__control-line:last-child {
+  height: 46%;
+}
+
+.new-products .icv__arrow-wrapper {
+  transform: none!important;
+  width: 3.46vw;
+  height: 4.93vw;
+  background-image: url('../img/arrow-right-white.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new-products .icv__arrow-wrapper svg {
+  display: none;
+}
+
+.new-products .icv__arrow-wrapper:last-of-type {
+  transform: rotate(180deg)!important;
+}
+
+.new-products .icv__theme-wrapper {
+  width: 11vw;
+}
+
 @media (max-width: 1023.98px) {
   .new-products {
     padding-top: 3vw;
